@@ -81,10 +81,7 @@ import java.util.List;
  * Activity that shows all the UI elements together
  */
 
-/**
- * editied by cheolung Kang before 2021
- */
-/** from 2021  editied by WangShiHe*/
+/** editied by WangShiHe*/
 
 public class CompleteWidgetActivity<gammaConnection_Success> extends Activity {
 
@@ -531,9 +528,9 @@ public class CompleteWidgetActivity<gammaConnection_Success> extends Activity {
                     XAxis x = chart.getXAxis();
 
                     x.setTextColor(Color.BLACK);
-                    x.setDrawGridLines(false);//��X�S��
-                    x.setPosition(XAxis.XAxisPosition.BOTTOM);//�ј˻`�ŵײ�
-                    x.setLabelCount(16, true);//�O���@ʾ20���˻`
+                    x.setDrawGridLines(false);
+                    x.setPosition(XAxis.XAxisPosition.BOTTOM);
+                    x.setLabelCount(16, true);
                     x.setAxisMaximum(maxRange / 1000);
                     initChart();
                     startRun();
@@ -542,9 +539,9 @@ public class CompleteWidgetActivity<gammaConnection_Success> extends Activity {
                 } else {
                     XAxis x = chart.getXAxis();
                     x.setTextColor(Color.BLACK);
-                    x.setDrawGridLines(false);//��X�S��
-                    x.setPosition(XAxis.XAxisPosition.BOTTOM);//�ј˻`�ŵײ�
-                    x.setLabelCount(4, true);//�O���@ʾ20���˻`
+                    x.setDrawGridLines(false);
+                    x.setPosition(XAxis.XAxisPosition.BOTTOM);
+                    x.setLabelCount(4, true);
                     x.setAxisMaximum(maxRange / 1000);
                     histogram.setLayoutParams(params_init);
                     window_flag = 0;
