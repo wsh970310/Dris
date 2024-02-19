@@ -15,7 +15,7 @@ Multi-thread mode: Intentservice
 3. 나가서 실험할 때 : 먼저 wifi 연결 , 그다음 app 겨기. (지도 초기화 필요)
 
 
-*Because of the .bin files programm is very Rom-consuming, but u can delet it anytime. Good luck friend.
-*Good luck my friend : )
+*Because of the .bin files programm is very Rom-consuming, but u can delet it anytime. 
+
 
 
